@@ -1,0 +1,18 @@
+{
+  "name": "rayark-cxd-street-battle",
+  "version": "1.0.0",
+  "authors": [
+    "Yuan Chiu <chyuaner@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.1"
+  }
+}
