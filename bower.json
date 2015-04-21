@@ -4,7 +4,6 @@
   "authors": [
     "Yuan Chiu <chyuaner@gmail.com>"
   ],
-  "license": "MIT",
   "ignore": [
     "**/.*",
     "node_modules",

@@ -1,0 +1,58 @@
+// Foundation Setting
+@import "foundation/functions";
+$small-range:   (0px, 340px);
+$medium-range:  (341px, 580px);
+$large-range:   (581px, 1224px);
+$xlarge-range:  (1225px, 80em);
+$xxlarge-range: (80.063em, 99999999em);
+
+@import "foundation";
+
+// Layout
+$xlarge-width: 80em;
+
+#container {
+  @include grid-row();
+
+  @media #{$xlarge-up} {
+    width: $xlarge-width;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+  }
+
+  // 影片大小
+  #video-live iframe {
+    @media #{$medium-up} {
+      width: 560px;
+      height: 315px;
+    }
+    @media #{$xlarge-up} {
+      width: 780px;
+      height: 440px;
+    }
+  }
+
+  @media #{$small-up} {
+    #video-live {
+      @include grid-column(12);
+    }
+
+    #chat-room {
+      @include grid-column(12);
+    }
+  }
+  @media #{$large-up} {
+    #video-live {
+      @include grid-column(8);
+    }
+
+    #chat-room {
+      @include grid-column(4);
+    }
+  }
+
+  #announcement {
+    @include grid-column(12);
+  }
+}
