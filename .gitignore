@@ -27,6 +27,6 @@ build/Release
 node_modules
 bower_components
 dest/assets
-dest/css/app.css
-dest/css/app.css.map
+dest/css
+dest/css
 dest/tests
