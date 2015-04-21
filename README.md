@@ -2,4 +2,6 @@ CXD雷亞街頭戰
 ===
 
 # 建置
-這個...我還沒寫，要弄就找我 (逃) 之後會補
+
+	npm install
+	bower install
