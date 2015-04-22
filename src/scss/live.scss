@@ -44,11 +44,42 @@ $xlarge-width: 80em;
     @include grid-column(12);
   }
 }
+#container>section {
+  margin-bottom: 1.3rem;
+}
+#container>section:not(#video-live) {
+  position:relative;
+  padding:20px;
+
+}
+#container>section:not(#video-live):before {
+  content:""; display:block;
+  position:absolute;
+  z-index:-1;
+  top:5px;
+  left:5px;
+  right:5px;
+  bottom:5px;
+}
 
 // Styles
 
 // 影片大小
 // 參考來源: http://avexdesigns.com/responsive-youtube-embed/
+body {
+  background-image: url("../images/bg/concrete_seamless.png");
+}
+
+#container>section:not(#video-live) {
+
+}
+#container>section:not(#video-live):before {
+  border:1px solid gray;
+  border-radius: 0.7em;
+  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.6)
+}
+
 #video-live .content {
   position: relative;
   padding-bottom: 56.25%;
