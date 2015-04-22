@@ -1,11 +1,18 @@
 @import "foundation";
 
 // Layout
+$large-width: 90%;
 $xlarge-width: 80em;
 
 #container {
   @include grid-row();
 
+  @media #{$large-up} {
+    width: $large-width;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+  }
   @media #{$xlarge-up} {
     width: $xlarge-width;
     margin-left: auto;
