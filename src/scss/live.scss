@@ -1,3 +1,4 @@
+@import "settings";
 @import "foundation";
 
 // Layout
@@ -44,6 +45,7 @@ $xlarge-width: 80em;
     @include grid-column(12);
   }
 }
+
 #container>section {
   margin-bottom: 1.3rem;
 }
@@ -69,6 +71,7 @@ $xlarge-width: 80em;
 body {
   background-image: url("../images/bg/concrete_seamless.png");
 }
+
 
 #container>section:not(#video-live) {
 

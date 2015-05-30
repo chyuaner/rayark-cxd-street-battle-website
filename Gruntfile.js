@@ -24,7 +24,7 @@ module.exports = function(grunt) {
             expand: true,
             flatten: true,
             cwd: 'bower_components/',
-            src: ['**/*.min.js'],
+            src: ['jquery/dist/jquery.min.js', 'foundation/js/foundation.min.js'],
             dest: 'dest/assets/js/'
           }
         ]

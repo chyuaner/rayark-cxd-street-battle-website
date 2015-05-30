@@ -10,19 +10,30 @@
     <body>
         <div id="page">
 
-            <header>
+            <header class="top-bar" data-topbar role="navigation">
+                <ul class="title-area">
+                    <li class="name">
+                        <h1><a href="#">瘋雷亞CxD街頭戰</a></h1>
+                    </li>
+                    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                </ul>
 
-                <div id="site-title">
-                    <h1>瘋雷亞CxD街頭戰</h1>
-                </div>
-
-                <nav>
-                    <ul>
-                        <li>Index</li>
-                        <li>About</li>
+                <section class="top-bar-section">
+                    <!-- Right Nav Section -->
+                    <ul class="right">
+                        <li><a href="#">Index</a></li>
+                        <li class="active"><a href="#">Live</a></li>
+                        <li><a href="#">About</a></li>
                     </ul>
-                </nav>
+
+                    <!-- Left Nav Section -->
+                    <ul class="left">
+<!--                        <li><a href="#">Left Nav Button</a></li>-->
+                    </ul>
+                </section>
             </header>
+
 
             <div id="container">
                 <section id="video-live">
@@ -48,6 +59,7 @@
                     <h2>公告</h2>
                     <div class="content">
                         <p>對戰資訊、規則、歌曲介紹</p>
+                        <script src="https://chu-cscc.hackpad.com/luoe3O95vP5.js?format=html"></script><noscript><div>View <a href="https://chu-cscc.hackpad.com/luoe3O95vP5">CHU-CSCC 許願池</a> on Hackpad.</div></noscript>
                     </div>
                 </section>
             </div>
@@ -61,5 +73,9 @@
 
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/foundation.min.js"></script>
+        <script>
+            $(document).foundation();
+            $(document).foundation('topbar', 'reflow');
+        </script>
     </body>
 </html>
