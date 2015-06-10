@@ -1,0 +1,17 @@
+@import "settings";
+@import "foundation";
+
+.page-section {
+  border-bottom: 1px gray solid;
+  background:#c3c3c3;
+}
+.page-section>.content {
+
+  @include grid-row();
+}
+
+// Style
+
+.main-button {
+  @include button(rem-calc(12),$primary-color,10px,false,false);
+}

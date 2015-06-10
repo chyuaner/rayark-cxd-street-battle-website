@@ -12,6 +12,7 @@ module.exports = function(grunt) {
         },
         files: {
           'dest/css/app.css': 'src/scss/app.scss',
+          'dest/css/index.css': 'src/scss/index.scss',
           'dest/css/live.css': 'src/scss/live.scss'
         }
       }
