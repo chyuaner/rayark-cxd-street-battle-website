@@ -12,6 +12,7 @@
     "tests"
   ],
   "dependencies": {
-    "foundation": "~5.5.2"
+    "foundation": "~5.5.2",
+    "jQuery-One-Page-Nav": "~3.0.0"
   }
 }
