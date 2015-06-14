@@ -92,6 +92,11 @@
       @include grid-column(4);
     }
   }
+
+  .avatar {
+    max-height: 40px;
+    max-width: 40px;
+  }
 }
 
 // Style
