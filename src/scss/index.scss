@@ -93,9 +93,29 @@
     }
   }
 
-  .avatar {
-    max-height: 40px;
-    max-width: 40px;
+  h3 { color: white;}
+  ul li {
+    line-height: 3em;
+    list-style-type: none;
+
+    .avatar {
+      max-width: 40px;
+      height: 40px;
+      position: absolute;
+      margin-left: -1em;
+
+      border: 3px solid white;
+      border-radius: 40px;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+
+      background: gray;
+      line-height: 1em;
+      overflow: hidden;
+    }
+
+    .nickname {
+      margin-left: 3em;
+    }
   }
 }
 
