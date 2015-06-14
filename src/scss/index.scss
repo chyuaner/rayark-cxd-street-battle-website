@@ -86,7 +86,7 @@
       @include grid-column(12);
     }
     @media #{$medium-up} {
-      @include grid-column(6);
+      @include grid-column(4);
     }
     @media #{$large-up} {
       @include grid-column(4);
@@ -95,17 +95,17 @@
 
   h3 { color: white;}
   ul li {
-    line-height: 3em;
+    line-height: 4.5em;
     list-style-type: none;
 
     .avatar {
-      max-width: 40px;
-      height: 40px;
+      max-width: 60px;
+      height: 60px;
       position: absolute;
       margin-left: -1em;
 
       border: 3px solid white;
-      border-radius: 40px;
+      border-radius: 60px;
       box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
 
       background: gray;
@@ -114,7 +114,7 @@
     }
 
     .nickname {
-      margin-left: 3em;
+      margin-left: 4.5em;
     }
   }
 }
