@@ -143,6 +143,10 @@
       color: white;
       text-shadow: 3px 3px 10px gray;
   }
+  .important {
+    color: #ffa2af;
+    font-weight: bold;
+  }
 }
 #register:before {
     content: '';
@@ -196,5 +200,16 @@
 
   h2 {
     color: white;
+  }
+}
+
+#footer {
+  .content {
+    @include grid-row();
+    padding-top: 2em;
+    p {
+      line-height: 1em;
+      text-align: center;
+    }
   }
 }
