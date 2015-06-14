@@ -10,30 +10,24 @@
     <body>
         <div id="page">
 
-            <div class="fixed">
-                <header class="top-bar" data-topbar role="navigation">
-                    <ul class="title-area">
-                        <li class="name">
-                            <h1><a href="#">瘋雷亞CxD街頭戰</a></h1>
-                        </li>
-                        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-                        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-                    </ul>
+            <header id="header-navbar">
+                <div class="content">
+                    <div class="title">
+                        <h1><a href="#">瘋雷亞CxD街頭戰</a></h1>
+                    </div>
 
-                    <section class="top-bar-section">
-                        <!-- Right Nav Section -->
-                        <ul id="header-nav" class="right">
-                            <li><a href="#register">Home</a></li>
+                    <nav>
+                        <ul>
+                            <li><a href="#register">報名</a></li>
                             <li><a href="live.html">Live Stream</a></li>
-                            <li><a href="#schedule">Schedule</a></li>
-                            <li><a href="#map">Map</a></li>
-                            <li><a href="#recently">recently</a></li>
-                            <li><a href="#staff">staff</a></li>
+                            <li><a href="#schedule">行程表</a></li>
+                            <li><a href="#map">位置</a></li>
+                            <li><a href="#recently">近期事項</a></li>
+                            <li><a href="#staff">工作人員</a></li>
                         </ul>
-
-                    </section>
-                </header>
-            </div>
+                    </nav>
+                </div>
+            </header>
 
             <section id="register" class="page-section">
                 <div class="content">
@@ -110,7 +104,7 @@
                     <h2>近期事項</h2>
 
                     <ul>
-                        <li>2015/6/1 - 2015/6/13: 報名</li>
+                        <li>2015/6/1 - 2015/6/30: 報名</li>
                         <li>2015/7/18: 正式比賽</li>
                         <li>2015/x/x: test</li>
                         <li>2015/x/x: test</li>
@@ -124,10 +118,33 @@
             </section>
 
             <section id="staff" class="page-section">
-                <h2>工作人員</h2>
+                <div class="content">
+                    <h2>工作人員</h2>
 
-                <ul>
-                </ul>
+                    <ul>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                        <li>ss</li>
+                    </ul>
+                </div>
             </section>
 
             <footer>
@@ -142,7 +159,7 @@
         <script>
             $(document).foundation();
             $(document).foundation('topbar', 'reflow');
-            $('#header-nav').onePageNav({
+            $('#header-navbar').onePageNav({
                 currentClass: 'active'
             });
 
