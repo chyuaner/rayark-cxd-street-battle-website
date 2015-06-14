@@ -78,6 +78,22 @@
     padding-bottom: 3em;
 }
 
+#staff>.content {
+  @include grid-row();
+
+  .col {
+    @media #{$small-up} {
+      @include grid-column(12);
+    }
+    @media #{$medium-up} {
+      @include grid-column(6);
+    }
+    @media #{$large-up} {
+      @include grid-column(4);
+    }
+  }
+}
+
 // Style
 
 .main-button {
