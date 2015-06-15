@@ -92,31 +92,6 @@
       @include grid-column(4);
     }
   }
-
-  h3 { color: white;}
-  ul li {
-    line-height: 4.5em;
-    list-style-type: none;
-
-    .avatar {
-      max-width: 60px;
-      height: 60px;
-      position: absolute;
-      margin-left: -1em;
-
-      border: 3px solid white;
-      border-radius: 60px;
-      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
-
-      background: gray;
-      line-height: 1em;
-      overflow: hidden;
-    }
-
-    .nickname {
-      margin-left: 4.5em;
-    }
-  }
 }
 
 // Style
@@ -200,6 +175,62 @@
 
   h2 {
     color: white;
+  }
+  h3 { color: white;}
+  ul li {
+    line-height: 4.5em;
+    list-style-type: none;
+
+    .avatar {
+      max-width: 60px;
+      height: 60px;
+      position: absolute;
+      margin-left: -1em;
+
+      border: 3px solid white;
+      border-radius: 60px;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+
+      background: gray;
+      line-height: 1em;
+      overflow: hidden;
+    }
+
+    .nickname {
+      margin-left: 4.5em;
+    }
+  }
+}
+
+#sponsor {
+
+  background: #c3e5e3;
+
+  #sponsor-list {
+    margin: 0 auto;
+    display: table;
+    list-style: none;
+
+    li {
+      display: table-cell;
+      text-align: center;
+      vertical-align: bottom;
+      width: 40%;
+    }
+  }
+  .logo-container {
+    height: 13em;
+  }
+  img.logo {
+    max-height: 100%;
+  }
+
+  @media #{$small-only} {
+    #sponsor-list li {
+      width: 100%;
+      display: inherit;
+      text-align: center;
+    }
   }
 }
 
