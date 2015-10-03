@@ -106,6 +106,10 @@
   @include button(rem-calc(12),$primary-color,10px,false,false);
 }
 
+.main-button.disabled {
+  @include button(rem-calc(12),$primary-color,10px,false,true);
+}
+
 
 #register {
   position: relative;
